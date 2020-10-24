@@ -10,7 +10,7 @@ public interface IAccesoDatos {
     peliculas.txt
      */
 
-    boolean existe(String nombreArchivo);
+    boolean existe(String nombreArchivo) ;
     List<Pelicula> listar(String nombre);
     String buscar(String nombreArchivo, String buscar);
     void escribir(Pelicula pelicula, String nombreArchivo, boolean anexar);
